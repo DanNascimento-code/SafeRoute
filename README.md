@@ -43,7 +43,7 @@ Using these inputs, SafeRoute calculates a **risk score** for different routes a
 
 **APIs & Services**
 
-* Mapbox (or similar mapping service)
+* OpenRouteService
 * External datasets (crime data, environmental data)
 
 ## Architecture
