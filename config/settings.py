@@ -38,11 +38,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'apps.core',
-    'apps.reports',
-    'apps.risk'
-    'apps.routing'
-    'apps.safety',
+    'apps.core.apps.CoreConfig',
+    'apps.reports.apps.ReportsConfig',
+    'apps.risk.apps.RiskConfig',
+    'apps.routing.apps.RoutingConfig',
+    'apps.safety.apps.SafetyConfig',
 ]
 
 MIDDLEWARE = [
